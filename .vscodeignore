@@ -1,0 +1,22 @@
+.vscode/**
+.vscode-test/**
+out/**
+node_modules/**
+src/**
+.gitignore
+.yarnrc
+esbuild.js
+vsc-extension-quickstart.md
+**/tsconfig.json
+**/eslint.config.mjs
+**/*.map
+**/*.ts
+**/.vscode-test.*
+
+
+# Abaikan semua isi node_modules...
+node_modules/**
+
+# ...KECUALI file yang kita butuhkan untuk Codicons agar bisa tampil di versi publikasi.
+!node_modules/@vscode/codicons/dist/codicon.css
+!node_modules/@vscode/codicons/dist/codicon.ttf
